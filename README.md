@@ -22,6 +22,7 @@ ln -s /opt/foo /usr/bin/bar
 ### Install Xdebug
 ```powershell
 sudo apt install php-xdebug
+sudo phpenmod -v 7.3 xdebug
 ```
 
 ### Redis cli login & changepass
