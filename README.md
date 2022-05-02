@@ -31,6 +31,8 @@ redis-cli -a redispass
 config set requirepass ""
 ```
 
+<hr>
+
 ### Remove package ubuntu
 ```powershell
 sudo apt-get --purge remove octave3.2
