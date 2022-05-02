@@ -30,3 +30,8 @@ sudo phpenmod -v 7.3 xdebug
 redis-cli -a redispass
 config set requirepass ""
 ```
+
+### Remove package ubuntu
+```powershell
+sudo apt-get --purge remove octave3.2
+```
