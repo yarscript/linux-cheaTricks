@@ -48,3 +48,9 @@ dpkg -l | grep apt # SEARCH "apt"
 ```powershell
 sudo apt install apt-transport-https=1.4.10
 ```
+
+### Download / Upload file terminal | ssh
+```powershell
+scp root@servername.com:/tmp/1.sql ~/Downloads/1.sql  # Download
+scp ~/1.sql root@servername.com:/tmp                    # Upload
+```
