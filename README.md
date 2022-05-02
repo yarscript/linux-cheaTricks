@@ -23,3 +23,9 @@ ln -s /opt/foo /usr/bin/bar
 ```powershell
 sudo apt install php-xdebug
 ```
+
+### Redis cli login & changepass
+```powershell
+redis-cli -a redispass
+config set requirepass ""
+```
