@@ -37,3 +37,9 @@ config set requirepass ""
 ```powershell
 sudo apt-get --purge remove octave3.2
 ```
+
+### Installed packages list
+```powershell
+dpkg -l OR apt list
+dpkg -l | grep apt # SEARCH "apt"
+```
