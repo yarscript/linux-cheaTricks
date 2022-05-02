@@ -65,3 +65,8 @@ htpp                                                  # Informative
 ```powershell
 tree -L 4 dir_name
 ```
+
+### Run commant in background
+```powershell
+(npm run start&)
+```
