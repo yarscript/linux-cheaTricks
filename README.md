@@ -43,3 +43,8 @@ sudo apt-get --purge remove octave3.2
 dpkg -l OR apt list
 dpkg -l | grep apt # SEARCH "apt"
 ```
+
+### Install package with version ubuntu
+```powershell
+sudo apt install apt-transport-https=1.4.10
+```
