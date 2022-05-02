@@ -52,5 +52,16 @@ sudo apt install apt-transport-https=1.4.10
 ### Download / Upload file terminal | ssh
 ```powershell
 scp root@servername.com:/tmp/1.sql ~/Downloads/1.sql  # Download
-scp ~/1.sql root@servername.com:/tmp                    # Upload
+scp ~/1.sql root@servername.com:/tmp                  # Upload
+```
+
+### Processes
+```powershell
+pstree                                                # Tree
+htpp                                                  # Informative
+```
+
+### Draw tree in terminal
+```powershell
+tree -L 4 dir_name
 ```
