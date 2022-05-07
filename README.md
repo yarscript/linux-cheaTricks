@@ -73,7 +73,7 @@ tree -L 4 dir_name
 
 ### Killing
 ```powershell
-sudo xkill                                             # Interactive kill
+sudo xkill                                             # Interactive kill 
 sudo kill -9 $(sudo lsof -t -i:9001)                   # Kill by port
 sudo kill -9 1234                                      # Kill by pid
 ```
