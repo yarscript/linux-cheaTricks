@@ -88,5 +88,7 @@ tar -xf archive.tar.gz
 ### PostgreSQL install
 ```bash
 sudo apt install postgresql postgresql-contrib
-
+sudo -i -u postgres
+psql
+\q
 ```
