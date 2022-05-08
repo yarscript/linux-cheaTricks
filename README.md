@@ -82,3 +82,11 @@ sudo kill -9 1234                                      # Kill by pid
 ```powershell
 tar -xf archive.tar.gz
 ```
+
+<hr>
+
+### PostgreSQL install
+```bash
+sudo apt install postgresql postgresql-contrib
+
+```
